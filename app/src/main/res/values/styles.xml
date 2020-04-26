@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="LightTheme" parent="AppTheme">
+        <item name="textColor">#000000</item>
+        <item name="metaTextColor">#606060</item>
+        <item name="bgColor">#fafafa</item>
+    </style>
+
+    <style name="DarkTheme" parent="AppTheme">
+        <item name="textColor">#ffffff</item>
+        <item name="metaTextColor">#aeaeae</item>
+        <item name="bgColor">#2B2B2B</item>
+    </style>
+
+
+    <!-- The default font for RecyclerView items is too small.
+   The margin is a simple delimiter between the words. -->
+    <style name="recyclerView"  parent="AppTheme">
+    <item name="android:background">?attr/bgColor</item>
+    </style>
+    <style name="backgroundArticle"  parent="AppTheme">
+        <item name="android:background">?attr/bgColor</item>
+    </style>
+
+    <style name="news_text"  parent="Theme.MaterialComponents.DayNight">
+        <item name="android:background">?attr/bgColor</item>
+        <item name="android:textColor">?attr/textColor</item>
+    </style>
+
+    <style name="news_title"  parent="news_text">
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Body1</item>
+    </style>
+
+    <style name="news_subtitle"  parent="news_text">
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Subtitle1</item>
+    </style>
+
+    <style name="news_mainTitle"  parent="news_text">
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Headline5</item>
+    </style>
+
+</resources>

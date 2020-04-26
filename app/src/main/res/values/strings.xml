@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Japanese News</string>
+    <string name="refresh_news">Refresh</string>
+</resources>
